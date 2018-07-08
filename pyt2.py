@@ -6,7 +6,7 @@ print("6"*10)
 
 
 # 分支语句
-
+#hihihihi
 a = -10
 
 if a > 0:
