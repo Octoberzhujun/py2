@@ -33,3 +33,12 @@ while j3 >0:
     teachers.remove(my3)
 print("教室分配情况如下所示：")
 print(rooms)
+
+#简写
+rooms = [[], [], []]
+teachers = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
+
+for i in teachers:
+    a = random.randint(0, 2)
+    rooms[a].append(i)
+print(rooms)
